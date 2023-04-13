@@ -1,0 +1,19 @@
+{
+  "name": "gulp_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zodaf",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0",
+    "gulp-replace": "^1.1.4",
+    "replace": "^1.2.2"
+  }
+}
