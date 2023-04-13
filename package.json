@@ -14,6 +14,10 @@
     "gulp": "^4.0.2",
     "gulp-file-include": "^2.3.0",
     "gulp-replace": "^1.1.4",
-    "replace": "^1.2.2"
+    "gulp-version-number": "^0.2.4",
+    "gulp-webp-html-nosvg": "^1.1.1",
+    "number": "^0.0.1",
+    "replace": "^1.2.2",
+    "version": "^0.1.2"
   }
 }
