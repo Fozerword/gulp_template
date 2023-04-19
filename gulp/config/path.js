@@ -11,12 +11,12 @@ export const path = {
         img: `${buildFolder}/img/`
     },  //folder results
     src: {
-        html:  `${srcFolder}/*.html`,
+        html:  `${srcFolder}/*.pug`,
         files: `${srcFolder}/files**/*.*`,
         img: `${srcFolder}/img/*.*`
     },
     watch: {
-        html:  `${srcFolder}/**/*.html`,
+        html:  `${srcFolder}/**/*.pug`,
         files: `${srcFolder}/files**/*.*`,
         img: `${srcFolder}/img/*.*`
     }, //check progect
