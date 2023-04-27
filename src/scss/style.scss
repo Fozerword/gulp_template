@@ -1,0 +1,17 @@
+body{
+    background-color: antiquewhite;
+    background: url("@img/widebody-dodge-hellcat-4k-ug.jpg") 0 0 no-repeat;
+}
+h1{
+    color: red;
+}
+@media (max-width: 768px) {
+    h1 {
+        color: black;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        filter: blur(0.1);
+    }
+}
