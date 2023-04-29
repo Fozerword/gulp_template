@@ -1,9 +1,11 @@
 body{
 
-    background: url("@img/widebody-dodge-hellcat-4k-ug.jpg") 0 0 no-repeat;
 }
 h1{
     color: red;
+}
+picture,img{
+    max-width: 100%;
 }
 @media (max-width: 768px) {
     h1 {

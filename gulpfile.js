@@ -18,9 +18,10 @@ global.app ={
 import { copy } from "./gulp/tasks/copy.js";
 import { reset } from "./gulp/tasks/reset.js";
 import { html } from "./gulp/tasks/html.js";
-import { img } from "./gulp/tasks/img.js";
+import { images } from "./gulp/tasks/images.js";
 import { server } from "./gulp/tasks/server.js";
 import { scss } from "./gulp/tasks/scss.js";
+import { js } from "./gulp/tasks/js.js";
 
 
 //wacher my files 
@@ -28,9 +29,11 @@ function watcher(){
     gulp.watch(app.path.watch.files , copy);
     gulp.watch(app.path.watch.html , html);
     gulp.watch(app.path.watch.scss , scss);
+    gulp.watch(app.path.watch.js , js);
+    gulp.watch(app.path.watch.images , images);
 }
 
-const mainTasks = gulp.parallel(copy, html, img, scss);
+const mainTasks = gulp.parallel(copy, html, images, scss, js);
 //buid scenario tasks
 const dev = gulp.series(reset, mainTasks, gulp.parallel(watcher, server));
 
