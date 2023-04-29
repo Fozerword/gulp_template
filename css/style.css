@@ -1,0 +1,22 @@
+body {
+  background-color: antiquewhite;
+}
+
+h1 {
+  color: red;
+}
+
+picture, img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    color: black;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    filter: blur(0.1);
+  }
+}
